@@ -1,5 +1,10 @@
 # NgMaterialDemo
 
+
+練習及研究 Angular Material ICON
+[研究來源網站:Angular Material完全攻略](https://ithelp.ithome.com.tw/users/20020617/ironman/1263)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
 ## Development server
