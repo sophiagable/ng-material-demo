@@ -1,16 +1,51 @@
-<button mat-raised-button color="primary">Hello World！</button>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
 
-<button mat-button>Dismiss</button>
-<p>
-  Hi 您登入的使用者帳號為
-  <i class="material-icons">
-    account_circle
-  </i>
-</p>
 
-<p>
-  <!-- <mat-icon>account_circle</mat-icon> -->
-</p>
+
+  <h2>在MatIcon中使用FontAwesome</h2>
+
+<div>
+  <!-- 就是<i class="fa fa-thumbs-up">的概念 -->
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up"></mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="primary"></mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="accent"></mat-icon>
+  <mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="warn"></mat-icon>
+</div>
+
+     <div>
+        這是一般的ICON顏色
+        <mat-icon>person</mat-icon>
+      </div>
+
+      <div>
+        這是加上primary顏色的ICON
+        <mat-icon color="primary">thumb_up</mat-icon>
+      </div>
+
+      <div>
+        這是加上accent顏色的ICON
+        <mat-icon color="accent">info</mat-icon>
+      </div>
+
+      <div>
+        這是加上warn顏色的ICON
+        <mat-icon color="warn">warning</mat-icon>
+      </div>
+
+
+      <h2>自行註冊SVG icon</h2>
+
+      <div>
+          <mat-icon svgIcon="custom-svg:angularicon"></mat-icon>
+          <mat-icon svgIcon="custom-svg:angularicon" color="primary"></mat-icon>
+          <mat-icon svgIcon="custom-svg:angularicon" color="accent"></mat-icon>
+          <mat-icon svgIcon="custom-svg:angularicon" color="warn"></mat-icon>
+      </div>
+
+</div>
+
+
 
 
 <router-outlet></router-outlet>

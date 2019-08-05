@@ -1,11 +1,6 @@
 # NgMaterialDemo
 
-
-這是我的練習 Angular Material
-
-從教學文章：[Angular Material 完全攻略](https://ithelp.ithome.com.tw/users/20020617/ironman/1263)
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
 ## Development server
 
